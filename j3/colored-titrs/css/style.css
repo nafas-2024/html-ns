@@ -1,0 +1,34 @@
+*{
+    background-color:rgb(240, 241, 210);
+}
+/* headings styles */
+h1{
+    color: navy;
+    font-size: 48px;
+    font-weight: 900;
+}
+h2{
+    color: teal;
+    font-size: 36;
+}
+h6{
+    color: gray;
+    font-weight: 300;
+}
+/* the email link style */
+#email-link{
+    font-size: xx-small;
+    color:rgb(208, 38, 38);
+    text-decoration: none;
+    
+}
+p{
+    font-size: x-small;
+}
+/* image style */
+img{
+    width: 200px;
+    height: 200px;
+    float: inline-end;
+    margin-left: 50px;
+}

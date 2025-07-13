@@ -1,0 +1,47 @@
+/* import fonts */
+@font-face {
+    font-family: Vazir;
+    src: url("./../fonts/Vazir.ttf");
+}
+@font-face {
+    font-family: Iransans;
+    src: url("./../fonts/Iranian\ Sans.ttf");
+}
+
+* {
+    font-family: Vazir;
+    background-color:floralwhite;
+    
+    
+}
+/* heading styles */
+h1{
+    font-family: Iransans;
+    color: #555;
+    text-align: center;
+    background-color: rgb(139, 139, 231);
+    font-weight :bold;
+    /* the border around of the heading */
+    border: 1px solid;
+    border-radius: 50%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 10px 100px;
+}
+/* all paragraphs style */
+p{
+    text-align: justify;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: large;
+
+}
+/* image styles */
+img{
+    float: inline-end;
+    margin: 2px 20px;
+    margin-left: 10%;
+    width: 250px;
+    height: 150px;
+    border-radius: 4%;
+}

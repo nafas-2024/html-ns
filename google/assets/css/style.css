@@ -1,0 +1,34 @@
+*{
+    text-align: center;
+}
+
+.google{
+    display: inline-block;
+    font-size: 300%;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.blue{
+    color: #176BEF;
+}
+.red{
+    color: #FF3E30;
+}
+.yellow{
+    color: #F7B529;
+}
+.green{
+    color: #179c59;
+}
+
+#search-input{
+    margin: 20px 0px;
+    width: 300px;
+}
+.btn{
+    margin: 15px 1px;
+    padding: 3px;
+    background-color: white;
+    border-radius: 5px;
+}

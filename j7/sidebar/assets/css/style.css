@@ -1,0 +1,50 @@
+@font-face {
+    font-family: vazirmatn;
+    src: url("./../fonts/Vazir.ttf");
+}
+*{
+    font-family: vazirmatn;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(209, 189, 227);
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10%; */
+}
+.quiz-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    width: 80%;
+}
+/* buttons */
+.answers{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.button{
+    
+    margin: 10px;
+    padding: 0;
+    text-align: start;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+}
+.button-number{
+    background-color: #794997 ;
+    color: #ffffff;
+    margin: 5%;
+    width: 1.75rem;
+    height: 1.75rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}

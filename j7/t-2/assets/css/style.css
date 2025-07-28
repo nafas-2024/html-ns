@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.btn{
+    width: 200px;
+    height: 200px;
+    border: none;
+}
+/* buttons setting */
+.btn-1{
+    background-color: blueviolet;
+    border-radius: 10px 20px 0px 30px;
+}
+.btn-2{
+    background-color: black;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}

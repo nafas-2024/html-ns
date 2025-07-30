@@ -1,0 +1,271 @@
+@font-face {
+    font-family: vazir;
+    src: url("./../fonts/vazir.eot");
+    src: url("./../fonts/vazir.ttf");
+    src: url("./../fonts/vazir.woff");
+    src: url("./../fonts/vazir.woff2");
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    font-family: vazir;
+}
+
+/* تصویر های پس زمینه */
+
+.part-1{
+    background: url("./../images/backtwo.jpg");
+    background-attachment: fixed;
+    background-size:100vw 100vh;
+    
+}
+.part-2{
+    background: url("./../images/hot.jpeg");
+    background-attachment: fixed;
+    background-size: 100vw 100vh;
+}
+
+.back-g{
+    position: relative;
+    height: 90vh;
+}
+
+.evenly{
+    position: absolute;
+    inset: 0;
+    background-color: #00000074;
+}
+.bg-1{
+    height: 100vh;
+    width: 100%;
+}
+.back-1{
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    position: absolute;
+}
+
+/* بخش منوی اول صفحه */
+
+.header{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    background-color:#000000c1 ;
+    
+}
+.items{
+    padding-right: 14%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    width: 700px;
+}
+.link-items{
+    font-size: 100%;
+    margin-left: 40px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: vazir;
+    
+}
+.logo-image{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 75px;
+    margin-left:15%;
+}
+
+/* بخش اول  */
+
+
+.introduction{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+
+.h2{
+    font-size: xx-large;
+}
+.p1{
+    font-size: larger;
+}
+
+
+/* بخش دوم */
+
+.first-info-box{
+    background-color: #fff;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    height: 400px;
+}
+.first-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.p2{
+    width: 70%;
+    /* margin: 20px 30% 20px 4%; */
+    font-size: medium;
+}
+.love-jpg{
+    display: flex;
+    justify-content: end;
+    width: 50rem;
+    height: 19rem;
+    margin-left: 5%;
+}
+
+/* بخش سوم */
+
+.second-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    color: #ffffff;
+    background-color: #00000074;
+    
+}
+.h2-2{
+    margin-top: 50px;
+    font-size: xx-large;
+}
+.p3{
+    text-align: center;
+    font-size: medium;
+    margin: 10px 30%;
+}
+
+/* بخش چهارم */
+
+.cafe-menu{
+    display: flex;
+    align-items: center;
+    height: 65vh;
+    background-color: #fff;
+    padding-right: 0%;
+}
+.cafe-menu-text{
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.p4{
+    width: 36rem;
+    margin-bottom: 5%;
+}
+.a1{
+    color: black;
+    border-bottom: solid 1px red;
+    text-decoration: none;
+}
+.cafe-menu-img{
+    width: 40%;
+}
+
+.images-cafe-menu{
+    margin: 5px;
+    width: 40%;
+    height: 12rem;
+}
+
+/* بخش پنجم */
+
+.slogan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    color: white;
+    background-color: #00000074;
+    font-size: x-large;
+    
+}
+/* بخش ششم */
+
+.cafe-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 50vh;
+}
+.cafe-description-text{
+    width: 30rem;
+    text-align: center;
+
+}
+.cafe-description-img{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+    
+}
+.cafe-description-image{
+    width: 10rem;
+    margin: 10px;
+}
+
+/* بخش هفتم */
+
+.connection-ways{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30vh;
+    padding-top: 5%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.about-us{
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.membership-and-fallow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    
+}
+
+.membership{
+    margin-left: 30%;
+    margin-top: 2%;
+}
+#membership-email{
+    height: 40px;
+    outline: none;
+}
+
+/* بخش آخر */
+.footer{
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+    height: 20vh;
+    background-color: rgb(65, 65, 65);
+}
